@@ -8,7 +8,7 @@ html {
     display: flex;
     max-width: 960px;
     background-color: #eaeaea;
-    margin: 20px auto;
+    margin: 0 auto;
   }
   .profile{
     max-width: 350px;
@@ -18,14 +18,14 @@ html {
   .profile-photo{
     background-image: url(https://i.postimg.cc/hP514jLK/photo.jpg);
     height: 300px;
-    width: 100%;
+    width: 350px; 
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
   }
   .profile-info{
     padding-left: 30px;
-    paddin-right: 30px;
+    padding-right: 30px;
     padding-top: 50px;
     padding-bottom: 70px;
   }
@@ -118,4 +118,42 @@ html {
   .line:nth-child(2){
     width: 100px;
     margin-left: 25px;
+  }
+
+  .resume{
+    display: flex;
+    max-width: 960px;
+    background-color: #39383a;;
+  }
+
+  footer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 20px 0 20px 0;
+    background-color: #39383a;
+    color: #ababab;
+    justify-content: center;
+    max-width: 960px;
+    margin: 5px auto;
+  }
+
+  .social{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .social-item{
+    margin-left: 20px;
+    height: 20px;
+  }
+
+  .social :hover {
+    opacity: 0.8;
+    color: #ffffff;
+  }
+  .social-title{
+    color: #ffffff;
   }
