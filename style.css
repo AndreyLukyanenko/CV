@@ -1,0 +1,121 @@
+html {
+    box-sizing: border-box;
+  }
+  *,*:after, *:before{
+    box-sizing: inherit;
+  }
+  .container{
+    display: flex;
+    max-width: 960px;
+    background-color: #eaeaea;
+    margin: 20px auto;
+  }
+  .profile{
+    max-width: 350px;
+    background-color: #39383a;
+    color: #ababab;
+  }
+  .profile-photo{
+    background-image: url(https://i.postimg.cc/hP514jLK/photo.jpg);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  .profile-info{
+    padding-left: 30px;
+    paddin-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+  .profile-text{
+    line-height: 24.19px;
+    font-size: 15px;
+    text-align: justify;
+    margin-right: 30px;
+  }
+  .heading{
+    margin: 0;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .heading-light{
+    color: #ffffff;
+    border-bottom: 2px #5a5a5a dashed;
+  }
+  .contacts{
+    margin-bottom: 70px;
+  }
+  .contacts-title{
+    color: #fff;
+    margin-bottom: 13px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .contacts-text{
+    color: #ababab;
+    text-decoration: none;
+    padding-left: 20px;
+    line-height: 20.97px;
+  } 
+  .contacts-item{
+    border-bottom: 2px #5a5a5a dashed;
+    padding-bottom: 24px;
+    padding-top: 24px;
+  }
+  .address{
+    font-style: normal;
+  }
+  .fas {
+  margin-right: 7px;
+  }
+  .languages{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 39px;
+  }
+  .language:last-child(3){
+    margin-bottom: 0;
+  }
+  .language:nth-child(3){
+    margin-bottom: 0;
+  }
+  .language{
+    width: 100px;
+    height: 100px;
+    border: 6px solid #5c5c5c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin-bottom: 30px;
+    margin-right: 30px;
+  }
+  .language-text{
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+  .language-percent{
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .lines{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .line{
+    display: block;
+    width: 90px;
+    height: 2px;
+    background-color: #5c5c5c;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .line:nth-child(2){
+    width: 100px;
+    margin-left: 25px;
+  }
