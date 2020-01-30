@@ -34,7 +34,7 @@ html {
   }
   .profile-text{
     line-height: 24.19px;
-    font-size: 15px;
+    font-size: large;
     text-align: justify;
     margin-right: 30px;
   }
@@ -71,7 +71,7 @@ html {
   .address{
     font-style: normal;
   }
-  .fas {
+  .fas{
   margin-right: 7px;
   }
   .languages{
@@ -182,7 +182,6 @@ html {
     margin-bottom: 12px;
   }
   .position {
-    display: inline-block;
     font-size: 15px;
     text-transform: uppercase;
     color: #808080;
@@ -273,8 +272,8 @@ html {
       font-size: 25px;
     }
     .profile-text{
-      font-size: 20px;
-      line-height: 42px;
+      font-size: xx-large;
+      line-height: 40px;
     }
     .contacts-title{
       font-size: 20px;
@@ -362,7 +361,7 @@ html {
       height: 300px;
     }
     .profile-text {
-      font-size: x-large;
+      font-size: xx-large;
     }
     .contacts-title{
       font-size: x-large;
@@ -405,23 +404,52 @@ html {
   }
 
   @media (max-width: 567px) {
-    .profile-info{
-      padding: 20px 15px 10px;
-    }
     .profile-photo{
-      margin-top: 15px;
-      background-position: center;
-      margin-left: auto;
-      margin-right: auto;
+      display: flex;
+      width: 300px;
+      height: 300px;
     }
-    .lines{
-      visibility: hidden;
+    .profile-text {
+      font-size: x-large;
     }
-    .languages{
-      padding-left: 5px;
-      
+    .contacts{
+      display: flex;
+    }
+    .contacts-title{
+      font-size: x-large;
+    }
+    .contacts-text{
+      font-size: xx-large;
+    }
+    .name{
+      font-size: x-large;
+    }
+    .position{
+      font-size: large;
     }
     .language{
-      margin: 0 auto;
+      font-size: x-large;
+      width: 120px;
+      height: 120px;
     }
-  }
+    .heading-dark {
+      font-size: x-large;
+    }
+    .list-item__title{
+      font-size: x-large;
+    }
+    .list-item__date{
+      font-size: large;
+    }
+    .list-item__text{
+      font-size: x-large;
+    }
+    .line {
+      width: 90px;
+      height: 4px;
+      margin-left: 110px;
+    }
+    .line:nth-child(2){
+      width: 100px;
+      margin-left: 70px;
+    }
